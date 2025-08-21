@@ -1,4 +1,4 @@
-# Expenso
+# Monetro
 
 Expenso is an Android financial management app designed to help users track their daily income and expenses. With a simple interface and interactive charts, users can easily add transactions and review their financial activity at a glance.
 
@@ -48,4 +48,5 @@ Click the image above to watch the Expenso demo video.
 
 Expenso offers a clean and efficient way to manage your finances, Enjoy seamless transaction management and real-time insights into your financial health!
 Thank You!
+
 
