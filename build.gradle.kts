@@ -1,55 +1,13 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath ("io.realm:realm-gradle-plugin:10.18.0")
+    }
+}
 plugins {
-    alias(libs.plugins.android.application)
-    id("realm-android")
-}
+    alias(libs.plugins.android.application) apply false
 
-
-android {
-    namespace = "com.example.expenso"
-    compileSdk = 34
-
-    buildFeatures {
-        viewBinding = true
-    }
-
-
-    defaultConfig {
-        applicationId = "com.example.expenso"
-        minSdk = 24
-        targetSdk = 34
-        versionCode = 1
-        versionName = "1.0"
-
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-    }
-
-    buildTypes {
-        release {
-            isMinifyEnabled = false
-            proguardFiles(
-                getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
-            )
-        }
-    }
-
-    compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_11
-        targetCompatibility = JavaVersion.VERSION_11
-    }
-}
-
-dependencies {
-
-    implementation(libs.appcompat)
-    implementation(libs.material)
-    implementation(libs.activity)
-    implementation(libs.constraintlayout)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.ext.junit)
-    androidTestImplementation(libs.espresso.core)
-
-    implementation(libs.anychart.android)
-    implementation("io.realm:realm-android-library:10.11.1")
-    implementation ("com.airbnb.android:lottie:6.6.2")
 }
