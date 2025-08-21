@@ -19,7 +19,7 @@ Expenso is an Android financial management app designed to help users track thei
 
 ## Demo Video
 
-[![Watch the Demo](https://usersnap.com/blog/wp-content/uploads/2016/08/click-me-button-flat.png)](https://youtu.be/u4GgJH25JX0?si=-MfQqED-Z8BvuxTq)
+[![Watch the Demo](https://usersnap.com/blog/wp-content/uploads/2016/08/click-me-button-flat.png)](https://youtube.com/shorts/mLpW2bxaI-Q?si=7UG1GjnrWdyN_nqg)
 
 Click the image above to watch the Expenso demo video.
 
@@ -48,5 +48,6 @@ Click the image above to watch the Expenso demo video.
 
 Expenso offers a clean and efficient way to manage your finances, Enjoy seamless transaction management and real-time insights into your financial health!
 Thank You!
+
 
 
