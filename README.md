@@ -37,7 +37,7 @@ Click the image above to watch the Expenso demo video.
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/NavneetShriwastav/Expenso.git
+   git clone https://github.com/Bibeksah088/Expensoo.git
    ```
 2. **Open in Android Studio:**  
    Import the project into Android Studio.
@@ -48,3 +48,4 @@ Click the image above to watch the Expenso demo video.
 
 Expenso offers a clean and efficient way to manage your finances, Enjoy seamless transaction management and real-time insights into your financial health!
 Thank You!
+
